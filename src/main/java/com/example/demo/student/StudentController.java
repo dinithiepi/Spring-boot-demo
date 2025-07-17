@@ -28,7 +28,6 @@ public class StudentController {
                     .body("Error fetching students: " + e.getMessage());
         }
     }
-
     @PostMapping
     public Student registerNewStudent(@RequestBody Student student){
         studentService.addNewStudent(student);
@@ -38,6 +37,5 @@ public class StudentController {
     public void deleteStudent(@PathVariable("studentId") Long studentId) {
         studentService.deleteStudent(studentId);
     }
-
 
 }

@@ -17,7 +17,6 @@ public class Student {
     // 🔹 Default no-arg constructor (required by JPA)
     public Student() {
     }
-
     // 🔹 Constructor without ID (used when saving new students)
     public Student(String name, String email, LocalDate dob) {
         this.name = name;

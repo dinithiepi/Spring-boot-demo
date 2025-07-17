@@ -23,7 +23,6 @@ public class studentconfig {
                     "Dinithi",
                     "dinithiepi@gmail.com",
                     LocalDate.of(2002, Month.OCTOBER,17)
-
             );
             repository.saveAll(List.of(Thimal,Dinithi));
         };
